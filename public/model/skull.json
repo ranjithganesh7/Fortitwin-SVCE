@@ -1,0 +1,38 @@
+{
+  "metadata": {
+    "version": 4.5,
+    "type": "Object",
+    "generator": "Object3D.toJSON"
+  },
+  "geometries": [
+    {
+      "uuid": "B1DC0E9F-7B58-4B20-A52A-EA731753170B",
+      "type": "SphereGeometry",
+      "radius": 5,
+      "widthSegments": 32,
+      "heightSegments": 16
+    }
+  ],
+  "materials": [
+    {
+      "uuid": "FB33A89A-A7B0-42DF-A47B-27BC89C452F0",
+      "type": "MeshStandardMaterial",
+      "color": 16777215,
+      "roughness": 0.5,
+      "metalness": 0.2,
+      "emissive": 0,
+      "depthFunc": 3,
+      "depthTest": true,
+      "depthWrite": true
+    }
+  ],
+  "object": {
+    "uuid": "AE1D5B9A-3D98-45FA-91F8-42E3A4F012BF",
+    "type": "Mesh",
+    "name": "Skull",
+    "layers": 1,
+    "matrix": [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1],
+    "geometry": "B1DC0E9F-7B58-4B20-A52A-EA731753170B",
+    "material": "FB33A89A-A7B0-42DF-A47B-27BC89C452F0"
+  }
+} 

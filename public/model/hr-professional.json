@@ -1,0 +1,106 @@
+{
+  "metadata": {
+    "version": 4.5,
+    "type": "Object",
+    "generator": "Object3D.toJSON"
+  },
+  "geometries": [
+    {
+      "uuid": "B1DC0E9F-7B58-4B20-A52A-EA731753170B",
+      "type": "CylinderGeometry",
+      "radiusTop": 0.8,
+      "radiusBottom": 1.2,
+      "height": 4,
+      "radialSegments": 32,
+      "heightSegments": 1
+    },
+    {
+      "uuid": "C2ED0F9A-8C69-5B31-B63B-38CF90C563F1",
+      "type": "SphereGeometry",
+      "radius": 1,
+      "widthSegments": 32,
+      "heightSegments": 16
+    },
+    {
+      "uuid": "D3FE1A0B-9D70-6C42-C74C-49DA01D674G2",
+      "type": "BoxGeometry",
+      "width": 2.5,
+      "height": 0.2,
+      "depth": 1.6
+    }
+  ],
+  "materials": [
+    {
+      "uuid": "FB33A89A-A7B0-42DF-A47B-27BC89C452F0",
+      "type": "MeshStandardMaterial",
+      "name": "Body",
+      "color": 3092271,
+      "roughness": 0.5,
+      "metalness": 0.2,
+      "emissive": 0,
+      "depthFunc": 3,
+      "depthTest": true,
+      "depthWrite": true
+    },
+    {
+      "uuid": "GC44B90B-B8C1-53EG-B58C-38DA19E563G1",
+      "type": "MeshStandardMaterial",
+      "name": "Head",
+      "color": 16766735,
+      "roughness": 0.5,
+      "metalness": 0.1,
+      "emissive": 0,
+      "depthFunc": 3,
+      "depthTest": true,
+      "depthWrite": true
+    },
+    {
+      "uuid": "HD55C01C-C9D2-64FH-C69D-49EB10F674H2",
+      "type": "MeshStandardMaterial",
+      "name": "Tablet",
+      "color": 5592405,
+      "roughness": 0.2,
+      "metalness": 0.8,
+      "emissive": 0,
+      "depthFunc": 3,
+      "depthTest": true,
+      "depthWrite": true
+    }
+  ],
+  "object": {
+    "uuid": "AE1D5B9A-3D98-45FA-91F8-42E3A4F012BF",
+    "type": "Group",
+    "name": "HRProfessional",
+    "layers": 1,
+    "matrix": [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1],
+    "children": [
+      {
+        "uuid": "BF2E6C0B-4A09-56GB-A29G-53F4B5G123CG",
+        "type": "Mesh",
+        "name": "Body",
+        "layers": 1,
+        "matrix": [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1],
+        "geometry": "B1DC0E9F-7B58-4B20-A52A-EA731753170B",
+        "material": "FB33A89A-A7B0-42DF-A47B-27BC89C452F0"
+      },
+      {
+        "uuid": "CG3F7D1C-5B10-67HC-B30H-64G5C6H234DH",
+        "type": "Mesh",
+        "name": "Head",
+        "layers": 1,
+        "matrix": [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 3, 0, 1],
+        "geometry": "C2ED0F9A-8C69-5B31-B63B-38CF90C563F1",
+        "material": "GC44B90B-B8C1-53EG-B58C-38DA19E563G1"
+      },
+      {
+        "uuid": "DH4G8E2D-6C21-78ID-C41I-75H6D7I345EI",
+        "type": "Mesh",
+        "name": "Tablet",
+        "layers": 1,
+        "matrix": [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.5, 1, 0.8, 1],
+        "geometry": "D3FE1A0B-9D70-6C42-C74C-49DA01D674G2",
+        "material": "HD55C01C-C9D2-64FH-C69D-49EB10F674H2"
+      }
+    ]
+  }
+} 
