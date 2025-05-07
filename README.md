@@ -90,7 +90,7 @@ fortitwin/
    ```
 
 4. **Open your browser**  
-   Visit: [https://fortitwin-svcehck-git-main-ranjithganeshb-gmailcoms-projects.vercel.app/]([http://localhost:3000](https://fortitwin-svcehck-git-main-ranjithganeshb-gmailcoms-projects.vercel.app/))
+   [Visit FortiTwin](https://fortitwin-svcehck-git-main-ranjithganeshb-gmailcoms-projects.vercel.app/)
 
 ---
 
