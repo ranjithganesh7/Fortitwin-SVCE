@@ -90,7 +90,7 @@ fortitwin/
    ```
 
 4. **Open your browser**  
-   Visit: [http://localhost:3000](http://localhost:3000)
+   Visit: [fortitwin]([http://localhost:3000](https://fortitwin-svcehck-git-main-ranjithganeshb-gmailcoms-projects.vercel.app/))
 
 ---
 
@@ -115,12 +115,6 @@ fortitwin/
 
 ---
 
-## 📄 License
-
-[MIT](LICENSE)
-
----
-
 ## 📬 Contact
 
-For questions or feedback, please contact [your-email@example.com](mailto:your-email@example.com)
+For questions or feedback, please contact [ranjithganeshb@gmail.com](mailto:ranjithganeshb@gmail.com)
